@@ -1,0 +1,233 @@
+
+/* ::::::::::: TABLET MONITORS ::::::::::: */
+@media screen and (min-width: 660px) {
+
+header {
+	height: 70px;
+}
+
+.controlBox {
+	height: 300px;
+	width: 200px;
+	border-right: solid #000;
+	border-bottom: none;
+	
+}
+
+form {
+	height: auto;
+	width: 100%;
+	margin: 5px 0;
+	text-align: center;
+	font-size: 10px;
+}
+
+
+input[type=text] {
+	margin: 5px auto;
+	padding: 12.5px 0;
+	height: 30px;
+	width: 80%;
+	display: block;
+	background: #EFFBFB;
+	font-family: 'Exo', sans-serif;
+	font-size: 25px;
+	text-align: center;
+
+}
+
+input[type=submit] {
+	height: 50px;
+	width: 175px;
+	font-family: 'Exo', sans-serif;
+	font-size: 20px;
+	border-radius: 20px;
+	border-color: #FFBF00;
+	color: #fff;
+	background: #5882FA;
+	outline: none;
+}
+
+
+
+
+
+
+} /* ENDS MEDIA QUERY
+/* ::::::::::: LARGE MONITORS ::::::::::: */
+@media screen and (min-width: 800px) {
+
+
+/* :::::::::::::::::::::::::: */
+/* :::::::: GENERAL ::::::::: */
+/* :::::::::::::::::::::::::: */
+
+body {
+	background: #fff;
+}
+
+h1 {
+	font-family: 'Exo', sans-serif;	
+}
+
+h2 {
+	margin: 0;
+	padding: 0;
+	font-family: 'Exo', sans-serif;
+	font-style: italic;
+}
+
+p {
+	font-family: 'Exo', sans-serif;
+	margin: 0;
+	padding: 0;
+}
+
+
+
+
+/* :::::::::::::::::::::::::: */
+/* ::::::::: HEADER ::::::::: */
+/* :::::::::::::::::::::::::: */
+
+header {
+	height: 76px;
+	margin: 0;
+	padding: 13px 0;
+	background: #CEF6EC;
+	text-align: center;
+	border-bottom: solid #000;
+}
+
+
+
+/* :::::::::::::::::::::::::: */
+/* :::::: CONTROL BOX ::::::: */
+/* :::::::::::::::::::::::::: */
+
+.controlBox {
+	margin: 0;
+	width: 400px;
+	background: #F6E3CE;
+	border-right: solid #000;
+	border-bottom: none;
+	display: block;
+	float: left;
+}
+
+/* :::::::::: FORM :::::::::: */
+
+form {
+	height: 375px;
+	width: 375px;
+	margin: 100px 0;
+	text-align: center;
+}
+
+input[type=text] {
+	margin: 25px auto;
+	padding: 12.5px 0;
+	height: 100px;
+	width: 300px;
+	display: block;
+	background: #EFFBFB;
+	font-family: 'Exo', sans-serif;
+	font-size: 75px;
+	text-align: center;
+
+}
+
+input[type=submit] {
+	height: 50px;
+	width: 200px;
+	font-family: 'Exo', sans-serif;
+	font-size: 20px;
+	border-radius: 20px;
+	border-color: #FFBF00;
+	color: #fff;
+	background: #5882FA;
+	outline: none;
+}
+
+
+.user {
+	margin: 10px 0;
+	text-align: center;
+	font-size: 25px;
+	display: none;
+}
+
+
+
+/* :::::::::::::::::::::::::: */
+/* :::::::: SQUARES ::::::::: */
+/* :::::::::::::::::::::::::: */
+
+#squares {
+	margin: 0;
+	padding: 0 10px;
+	height: 0;
+	overflow: scroll;
+}
+
+#squares div {
+  width: 100px;
+  height: 100px;
+  max-width: 100px;
+  max-height: 100px;
+  display: inline-block;
+  border-radius: 5%;
+  margin: 20px;
+  vertical-align: middle;
+}
+
+
+
+
+
+/* :::::::::::::::::::::::::: */
+/* ::::::::: FOOTER ::::::::: */
+/* :::::::::::::::::::::::::: */
+
+footer {
+  height: 65px;
+  padding-top: 16.5px;
+  font-size: 0.75em;
+  text-align: center;
+  clear: both;
+  color: #045FB4;
+  background: #EFFBFB;
+  border-top: solid #000;
+}
+
+.social-icon{
+  width: 20px;
+  height: 20px;
+  margin: 0 5px;
+}
+
+
+footer p {
+	margin: 10px 0;
+}
+
+
+/* ================================= 
+  Media Queries
+==================================== */
+
+@media (min-width: 769px) {
+
+	.controlBox,
+	#squares {
+		min-height: calc(100vh - 189.5px)
+	}
+
+  	.wrap {  /* THIS IS THE STICKY FOOTER */
+	  	min-height: calc(100vh - 90px);
+  }
+
+
+
+
+} /* ENDS MEDIA QUERY
